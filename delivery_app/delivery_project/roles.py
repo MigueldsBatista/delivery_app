@@ -6,7 +6,7 @@ class Restaurante(AbstractUserRole):
         'ver_estatisticas': True
     }
 
-class Entrehador(AbstractUserRole):
+class Entregador(AbstractUserRole):
     available_permissions = {
         'ver_pedidos': True
     }
